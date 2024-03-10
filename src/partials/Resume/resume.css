@@ -1,0 +1,20 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji2 : #4152B9;
+    --banafsaji3 : #6c5bdc;
+    --banafsaji4 : #6c5bdc6c;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+
+object {
+    border-radius: var(--reduce);
+    box-shadow: 0 0 10px 10px var(--banafsaji4);
+}
+.parentResume {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: var(--reduce);
+}

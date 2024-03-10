@@ -1,0 +1,58 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji3 : #6c5bdc;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+
+.parentContact {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius:var(--reduce) ;
+    margin-top: 1rem;
+}
+
+.parentContact h6 {
+    color: var(--banafsaji2);
+}
+
+.parentContact form {
+    background-image: linear-gradient(37deg, rgb(91,144,220),rgb(65,82,185));
+    border-radius: var(--reduce);
+    padding: 1rem;
+    color: var(--white);
+    margin-top: 1rem;
+}
+.parentContact form input, textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: var(--reduce);
+    border: none;
+    color: var(--banafsaji2);
+}
+.parentContact form label {
+    margin-left: 0.5rem;
+    padding: 0.4rem;
+}
+.parentContact form button {
+    color : var(--banafsaji3);
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: var(--reduce);
+    background-color: var(--white);
+    border: none;
+    transition: all .2s;
+}
+
+.parentContact form button:hover {
+    transform: scale(1.05);
+}
+.parentContact form button:active {
+    transform: scale(0.8);
+}

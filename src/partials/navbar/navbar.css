@@ -1,0 +1,66 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+
+.parentNavbarLinks {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.parentNavbarLinks ul {
+    width: fit-content;
+   display: flex;
+    background-color: var(--white);
+    border-radius: var(--reduce);
+    gap: 0.6rem;
+    list-style-type: none;
+    width: fit-content;
+    padding: 1rem;
+}
+.parentNavbarLinks ul li button {
+    background-color: rgba(210, 210, 210, 0.189);
+    border-radius: var(--reduce);
+    padding: 1rem 0.8rem;
+    cursor: pointer;
+    width: 80px;
+    color: var(--banafsaji2);
+    border: 0.05rem solid rgba(210, 210, 210, 0.189);
+    transition: all .2s;
+}
+.parentNavbarLinks ul li button i {
+    font-size: 1.4rem;
+}
+
+.parentNavbarLinks ul li button:hover {
+    background-color: #5b91dc31;
+}
+
+
+#toggleIsIt {
+    background-color: var(--banafsaji2);
+    border-radius: var(--reduce);
+    padding: 1rem 0.8rem;
+    cursor: pointer;
+    width: 80px;
+    color: var(--white);
+    border: 0.05rem solid rgba(210, 210, 210, 0.189);
+    transition: all .2s;
+}
+
+
+
+@media (max-width:907px){
+    .parentNavbarLinks {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,37 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji3 : #6c5bdc;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+.parentWorks {
+    background-color: var(--white);
+    border-radius: var(--reduce);
+    padding: 1rem;
+    margin-top: 1rem;
+    color: #271495;
+}
+
+.textWorks {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.textWorks i {
+    font-size: 1.8rem;
+}
+.textWorks a {
+    font-size: 0.8rem;
+    color: var(--banafsaji2);
+    transition: all .2s;
+}
+.textWorks a:hover {
+    transform: scale(1.05);
+}
+.textWorks a:active {
+    transform: scale(0.8);
+}

@@ -1,0 +1,61 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+.parentNavbar {
+    padding: 1rem;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnbrandlogo {
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.btnbrandlogo .point {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.btnhearme {
+    background-color: var(--white);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    border: none;
+    color: var(--banafsaji2);
+    border-radius: var(--reduce);
+    cursor: pointer;
+    transition  : all .2s;
+}
+
+.btnhearme:hover {
+    transform: scale(1.10) ;
+}
+.btnhearme:active {
+    transform: scale(0.8) ;
+}
+
+
+@media(max-width:594px){
+    .parentNavbar {
+        width: 100vw;
+        margin: auto;
+        margin-top: -2rem;
+        position: absolute;
+        left: 0;
+    }
+}

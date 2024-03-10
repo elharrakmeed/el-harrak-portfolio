@@ -1,0 +1,116 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5b91dc0f;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+
+.cardParentNotFlex {
+    width: 35%;
+}
+
+.parentCard {
+    background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--banafsaji2);
+    border-radius: var(--reduce);
+    padding-top: 1rem;
+}
+.profileSection img {
+    width: 170px;
+    border-radius: var(--reduce);
+}
+.profileSection p {
+    opacity: 0.6;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.listSocialMedia {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    gap: 0.2rem;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+.listSocialMedia li a i {
+    background-image: linear-gradient(45deg, rgba(130, 89, 219, 0.2),rgba(44, 192, 226, 0.2),rgba(182, 103, 181, 0.2)),linear-gradient(135deg, rgb(39, 20, 149),rgb(65, 82, 185),rgb(91, 144, 220));
+    color: var(--white);
+    padding: 0.3rem;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.listSocialMedia li a i:hover {
+    transform: scale(1.1);
+    margin: 0.1rem;
+}
+.listSocialMedia li a i:active {
+    transform: scale(0.7);
+}
+.sectionInfoContact { 
+    background-color: #5b91dc24;
+    width: 100%;
+    margin: 0;
+}
+.sectionInfoContact .listContact {
+    list-style-type:none ;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.listContact li .itemContact {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.itemContact .icon i {
+    font-size: 1.1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: var(--reduce);
+}
+.itemContact .details p {
+    font-size: 0.7rem;
+}
+
+.sectionCV {
+padding: 1rem;
+}
+
+.sectionCV .parentDownloadCV button{
+    background-image: linear-gradient(150deg, rgb(72,105,206),rgb(62,25,113));
+    color: white;
+    padding: 0.5rem;
+    border-radius: var(--reduce);
+    border: none;
+    cursor: pointer;
+    transition: all .2s;
+}
+.sectionCV .parentDownloadCV button:hover { 
+    transform: scale(1.1);
+}
+.sectionCV .parentDownloadCV button:active { 
+    transform: scale(0.8);
+}
+
+@media (max-width:598px){
+    .cardParentNotFlex {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width:907px){
+    .cardParentNotFlex {
+        width: 100%;
+    }
+}

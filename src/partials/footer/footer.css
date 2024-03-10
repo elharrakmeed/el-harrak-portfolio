@@ -1,0 +1,24 @@
+:root {
+    --azera9 : #271495;
+    --banafsaji1 : #5B90DC;
+    --banafsaji3 : #6c5bdc;
+    --banafsaji2 : #4152B9;
+    --black:black;
+    --white:white;
+    --reduce:8px; 
+}
+
+.parentFooter {
+    width: 100% ;
+    color:  white;
+    font-family: "Caveat", cursive;
+    padding-top: 5rem;
+}
+
+.parentFooter h4 {
+    width: 100%;
+    text-align: center;
+    color:  white;
+    font-family: "Caveat", cursive;
+
+}
