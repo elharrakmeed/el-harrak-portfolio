@@ -14,7 +14,7 @@ export default function AppRouter() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/el-harrak-portfolio">
         <Routes>
           <Route
             path="/"
